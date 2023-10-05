@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100;
+}
+
+/* .container  {
+    display: flex;
+    background-color: #66735f;
+    border: 1px solid #000;
+} */
+
+.navbar-brand {
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbaritems {
+    display: flex;
+}
+.navbaritems ul{
+    display: flex;
+    padding-left: 30rem;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbaritems a:hover{
+    background-color: #c3b18f;
+    transition: 2s;
+    border-radius: 100px;
+}
+
+/* .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: green;
+    padding-left: 10rem;
+} */
+
+.background-image-center{
+    background-image: url(/img/Alfajor.jpg);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    size: 100%;
+    background-color: #c3b18f;
+}
+
+.menu button{
+    font-size: xx-large;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    background-color: #c3b18f;
+}
+
+.title2{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #c3b18f;
+    width: 100%;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #c3b18f;
+    align-items: center;
+}
+
+.aboutus p{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font-size: large;
+    
+}
+
+.aboutus a{
+    display: table;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+}
+
+.galery h1{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font: 900;    
+}
+
+.galeryimages {
+    display: flex;
+}
+
+.galerybutton {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* .contact-v3 {
+    display: flex;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    background-color: #66735f;
+    color: #fff;
+} */
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
